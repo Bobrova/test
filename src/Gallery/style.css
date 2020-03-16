@@ -1,5 +1,5 @@
 body {
-  /* overflow: hidden; */
+  overflow: hidden;
 }
 
 .mainPage {
@@ -7,7 +7,7 @@ body {
 }
 
 .mainContent {
-  margin: 20px 60px 20px 60px;
+  margin: 20px 80px 20px 80px;
 }
 
 .filterPeople {
@@ -21,7 +21,8 @@ body {
   position: fixed;
   bottom: 0;
   left: 0;
-  height: 130px;
+  padding: 30px;
+  box-sizing: border-box;
   width: 100%;
   background-color: #fff;
 }

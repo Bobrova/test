@@ -1,10 +1,8 @@
 .header {
-  /* height: 100px; */
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 30px 30px 10px 30px;
-  /* box-sizing: border-box; */
+  padding: 35px 30px 10px 35px;
 }
 
 .logoMemes {
@@ -21,7 +19,9 @@
 }
 
 .profileData_user {
-  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
   border-radius: 40px;
   background-color: rgba(150, 188, 226, 0.5);
   color: #6688cc;
@@ -33,4 +33,20 @@
   background-size: 32px 32px;
   height: 32px;
   width: 32px;
+}
+
+.profileData_exit:hover {
+  cursor: pointer;
+}
+
+.userAvatar {
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 43px;
+  width: 43px;
+  border-radius: 50%;
+}
+
+.userName {
+  padding: 0 15px 0 10px;
 }

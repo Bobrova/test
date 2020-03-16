@@ -1,8 +1,15 @@
 .memesList {
-  height: 550px;
+  height: 53vh;
   display: flex;
   flex-wrap: wrap;
-  /* justify-content: center; */
+  /* justify-content: space-around; */
+  /* align-items: flex-start; */
   overflow-y: auto;
-  margin-bottom: -130px;
+  padding-bottom: 5px;
 }
+
+/* @media screen and (max-width: 1459px) {
+  .memesList {
+    height: 60vh;
+  }
+} */

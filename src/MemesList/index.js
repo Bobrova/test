@@ -5,7 +5,6 @@ import './style.css';
 
 class MemesList extends Component {
   render() {
-    console.log(memesList);
     const list = memesList.map(item => (
       <Meme 
         key={item.id}
