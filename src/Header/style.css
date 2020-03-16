@@ -2,14 +2,14 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 35px 30px 10px 35px;
+  padding: 31px 30px 10px 32px;
 }
 
 .logoMemes {
   background-repeat: no-repeat;
-  background-size: 224px 72px;
-  height: 72px;
-  width: 224px;
+  background-size: contain;
+  height: 54px;
+  width: 180px;
 }
 
 .profileData {
@@ -42,11 +42,15 @@
 .userAvatar {
   background-repeat: no-repeat;
   background-size: contain;
-  height: 43px;
-  width: 43px;
+  height: 32px;
+  width: 32px;
   border-radius: 50%;
 }
 
 .userName {
+  font-size: 14px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
   padding: 0 15px 0 10px;
 }

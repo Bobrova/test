@@ -17,7 +17,9 @@ class Header extends Component {
         <div className='profileData_user'>
           <div className='userAvatar' style={{ backgroundImage: `url("${avatar}")`}}/>
           <span className='userName'>Губка Боб Квадратные штаны</span></div>
-        <div className='profileData_exit' style={{ backgroundImage: `url("${exitIcon}")`}} />
+          <Link to={'/'} className='link'>
+            <div className='profileData_exit' style={{ backgroundImage: `url("${exitIcon}")`}} />
+          </Link>
       </div>
     </div>
     );
