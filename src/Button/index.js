@@ -1,17 +1,23 @@
-import React, { Component } from 'react';
+import React from 'react';
+import PropTypes from 'prop-types';
 import './style.css';
 
-class Button extends Component {
-  render() {
-    const { textButton, logo } = this.props;
-    return (
-    <div className="mainButton">
-      <div className='slack-icon' style={{ backgroundImage: `url("${logo}")`}} />
-      <span className="textButton">{textButton}</span>
-      </div>
-    );
-  }
-  
-}
+const Button = ({ textButton, icon }) => {
+  console.log(icon);
+  return (
+    <div className='mainButton'>
+      <div
+        className='slackIcon'
+        style={{ backgroundImage: `URL("${icon}")` }}
+      />
+      <span className='textButton'>{textButton}</span>
+    </div>
+  );
+};
+
+Button.propTypes = {
+  textButton: PropTypes.string.isRequired,
+  icon: PropTypes.string.isRequired,
+};
 
 export default Button;
