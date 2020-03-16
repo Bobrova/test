@@ -1,5 +1,5 @@
 .memesList {
-  height: 53vh;
+  /* height: 53vh; */
   display: flex;
   flex-wrap: wrap;
   /* justify-content: space-around; */

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import memesLogo from '../img/memes-logo.png';
-import exitIcon from '../img/exit.png';
+import memesLogo from '../img/memes-logo.svg';
+import exitIcon from '../img/exit-icon.svg';
 import avatar from '../img/sponge.jpg';
 import './style.css';
 

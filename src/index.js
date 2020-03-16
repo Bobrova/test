@@ -18,7 +18,7 @@ render(
         exact
       />
       <Route
-        path="/main"
+        path="/gallery"
         component={Gallery}
         exact
       />

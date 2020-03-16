@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import meme from '../img/pen.png';
-import share from '../img/share.png';
+import share from '../img/share-icon.svg';
 import './style.css';
 
 class Meme extends Component {

@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import Button from '../Button';
 import Header from '../Header';
 import MemesList from '../MemesList';
-import iconDog from '../img/dog.png';
+import iconDog from '../img/dog-icon.svg';
 import './style.css';
 
 class Main extends Component {
