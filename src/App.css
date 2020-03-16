@@ -1,3 +1,33 @@
-.App {
+.page {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.loginBlock {
   text-align: center;
+  padding-bottom: 100px;
+}
+
+.memesLogo {
+  position: absolute;
+  top: 35px;
+  left: 35px;
+  background-repeat: no-repeat;
+  background-size: 224px 72px;
+  height: 72px;
+  width: 224px;
+}
+
+.topText {
+  font-size: 24px;
+  color: #779;
+  padding: 40px 0;
+}
+
+.link {
+  text-decoration: none;
 }

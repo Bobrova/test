@@ -1,0 +1,28 @@
+body {
+  overflow: hidden;
+}
+
+.mainPage {
+  overflow: hidden;
+}
+
+.mainContent {
+  margin: 20px 80px 20px 80px;
+}
+
+.filterPeople {
+  margin: 20px;
+}
+
+.buttonsBlock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  padding: 30px;
+  box-sizing: border-box;
+  width: 100%;
+  background-color: #fff;
+}
