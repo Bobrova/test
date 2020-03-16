@@ -1,13 +1,14 @@
 .mainButton {
   display: flex;
   align-items: center;
-  justify-content: center;
-  width: 412px;
-  height: 79px;
+  /* justify-content: center; */
+  height: 46px;
   border-radius: 10px;
   margin: 0 auto;
   background-color: #dcd;
+  padding: 0 30px;
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.24), 0 0 2px rgba(0, 0, 0, 0.12);
+  vertical-align: middle;
 }
 
 .mainButton:hover {
@@ -24,14 +25,17 @@
 .textButton {
   text-align: center;
   letter-spacing: 0.01em;
-  font-size: 24px;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.01em;
+  /* font-weight: 500; */
   color: #68c;
-  padding: 10px 30px;
+  margin-left: 10px;
 }
 
-.slackIcon {
+.icon {
   background-repeat: no-repeat;
-  background-size: 45px 45px;
-  height: 45px;
-  width: 45px;
+  background-size: contain;
+  height: 32px;
+  width: 32px;
 }

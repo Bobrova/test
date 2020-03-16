@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import memesLogo from '../img/memes-logo.svg';
 import exitIcon from '../img/exit-icon.svg';
 import avatar from '../img/sponge.jpg';
@@ -9,7 +10,9 @@ class Header extends Component {
     // const { userName, iconUser } = this.props;
     return (
     <div className='header'>
-      <div className='logoMemes' style={{ backgroundImage: `url("${memesLogo}")`}} />
+      <Link to={'/gallery'} className='link'>
+        <div className='logoMemes' style={{ backgroundImage: `url("${memesLogo}")`}} />
+      </Link>
       <div className='profileData'>
         <div className='profileData_user'>
           <div className='userAvatar' style={{ backgroundImage: `url("${avatar}")`}}/>
