@@ -1,0 +1,36 @@
+.header {
+  /* height: 100px; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 30px 10px 30px;
+  /* box-sizing: border-box; */
+}
+
+.logoMemes {
+  background-repeat: no-repeat;
+  background-size: 224px 72px;
+  height: 72px;
+  width: 224px;
+}
+
+.profileData {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profileData_user {
+  padding: 10px;
+  border-radius: 40px;
+  background-color: rgba(150, 188, 226, 0.5);
+  color: #6688cc;
+  margin-right: 10px;
+}
+
+.profileData_exit {
+  background-repeat: no-repeat;
+  background-size: 32px 32px;
+  height: 32px;
+  width: 32px;
+}

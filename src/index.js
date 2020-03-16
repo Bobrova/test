@@ -7,6 +7,7 @@ import {
 } from 'react-router-dom';
 import './index.css';
 import App from './App';
+import Gallery from './Gallery';
 
 render(
   <HashRouter>
@@ -14,6 +15,11 @@ render(
       <Route
         path="/"
         component={App}
+        exact
+      />
+      <Route
+        path="/main"
+        component={Gallery}
         exact
       />
     </Switch>
