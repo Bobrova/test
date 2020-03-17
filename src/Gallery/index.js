@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import Button from '../Button';
 import Header from '../Header';
 import MemesList from '../MemesList';
-// import FilterPerson from '../FilterPerson';
+import FilterPerson from '../FilterPerson';
 import iconDog from '../img/dog-icon.svg';
 import './style.css';
 
@@ -15,7 +15,7 @@ class Main extends Component {
         <Header />
         <div className='mainContent'>
           <div className='filterPeople'>
-          {/* <FilterPerson /> */}
+          <FilterPerson />
           </div>
           <MemesList />
           <div className='buttonsBlock'>
