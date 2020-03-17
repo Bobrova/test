@@ -1,15 +1,7 @@
 .memesList {
-  height: 53vh;
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
-  /* justify-content: space-around; */
-  /* align-items: flex-start; */
   overflow-y: auto;
-  padding-bottom: 5px;
+  padding-bottom: 20px;
 }
-
-/* @media screen and (max-width: 1459px) {
-  .memesList {
-    height: 60vh;
-  }
-} */

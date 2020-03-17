@@ -1,8 +1,10 @@
 .header {
+  height: 100px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 31px 30px 10px 32px;
+  box-sizing: border-box;
+  padding: 31px 52px 10px 32px;
 }
 
 .logoMemes {
