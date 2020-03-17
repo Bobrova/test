@@ -1,17 +1,20 @@
 {
   "files": {
-    "main.css": "/test/static/css/main.bfc4dd81.chunk.css",
-    "main.js": "/test/static/js/main.028bbe98.chunk.js",
-    "main.js.map": "/test/static/js/main.028bbe98.chunk.js.map",
+    "main.css": "/test/static/css/main.b41f4967.chunk.css",
+    "main.js": "/test/static/js/main.79feb44e.chunk.js",
+    "main.js.map": "/test/static/js/main.79feb44e.chunk.js.map",
     "runtime-main.js": "/test/static/js/runtime-main.5b4329d1.js",
     "runtime-main.js.map": "/test/static/js/runtime-main.5b4329d1.js.map",
-    "static/js/2.8e39e3ea.chunk.js": "/test/static/js/2.8e39e3ea.chunk.js",
-    "static/js/2.8e39e3ea.chunk.js.map": "/test/static/js/2.8e39e3ea.chunk.js.map",
+    "static/css/2.e8cea057.chunk.css": "/test/static/css/2.e8cea057.chunk.css",
+    "static/js/2.1a6cfc63.chunk.js": "/test/static/js/2.1a6cfc63.chunk.js",
+    "static/js/2.1a6cfc63.chunk.js.map": "/test/static/js/2.1a6cfc63.chunk.js.map",
     "index.html": "/test/index.html",
-    "precache-manifest.34896746fd3d6035476b695b7e9a9ea6.js": "/test/precache-manifest.34896746fd3d6035476b695b7e9a9ea6.js",
+    "precache-manifest.bd86de9fe255154e91bd556e82a4b2a7.js": "/test/precache-manifest.bd86de9fe255154e91bd556e82a4b2a7.js",
     "service-worker.js": "/test/service-worker.js",
-    "static/css/main.bfc4dd81.chunk.css.map": "/test/static/css/main.bfc4dd81.chunk.css.map",
-    "static/js/2.8e39e3ea.chunk.js.LICENSE.txt": "/test/static/js/2.8e39e3ea.chunk.js.LICENSE.txt",
+    "static/css/2.e8cea057.chunk.css.map": "/test/static/css/2.e8cea057.chunk.css.map",
+    "static/css/main.b41f4967.chunk.css.map": "/test/static/css/main.b41f4967.chunk.css.map",
+    "static/js/2.1a6cfc63.chunk.js.LICENSE.txt": "/test/static/js/2.1a6cfc63.chunk.js.LICENSE.txt",
+    "static/media/semantic.min.css": "/test/static/media/outline-icons.ef60a4f6.woff",
     "static/media/dog-icon.svg": "/test/static/media/dog-icon.bf34e2f2.svg",
     "static/media/exit-icon.svg": "/test/static/media/exit-icon.0069121a.svg",
     "static/media/memes-logo.svg": "/test/static/media/memes-logo.b249e5df.svg",
@@ -21,8 +24,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.5b4329d1.js",
-    "static/js/2.8e39e3ea.chunk.js",
-    "static/css/main.bfc4dd81.chunk.css",
-    "static/js/main.028bbe98.chunk.js"
+    "static/css/2.e8cea057.chunk.css",
+    "static/js/2.1a6cfc63.chunk.js",
+    "static/css/main.b41f4967.chunk.css",
+    "static/js/main.79feb44e.chunk.js"
   ]
 }
