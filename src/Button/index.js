@@ -7,7 +7,7 @@ const Button = ({ textButton, icon }) => {
   return (
     <div className='mainButton'>
       <div
-        className='icon'
+        className='iconbt'
         style={{ backgroundImage: `URL("${icon}")` }}
       />
       <span className='textButton'>{textButton}</span>

@@ -9,7 +9,7 @@ class Header extends Component {
   render() {
     // const { userName, iconUser } = this.props;
     return (
-    <div className='header'>
+    <div className='headerO'>
       <Link to={'/gallery'} className='link'>
         <div className='logoMemes' style={{ backgroundImage: `url("${memesLogo}")`}} />
       </Link>

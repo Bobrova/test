@@ -1,7 +1,6 @@
 .mainButton {
   display: flex;
   align-items: center;
-  /* justify-content: center; */
   height: 46px;
   border-radius: 10px;
   margin: 0 auto;
@@ -28,12 +27,11 @@
   font-size: 18px;
   line-height: 25px;
   letter-spacing: 0.01em;
-  /* font-weight: 500; */
   color: #68c;
   margin-left: 10px;
 }
 
-.icon {
+.iconbt {
   background-repeat: no-repeat;
   background-size: contain;
   height: 32px;

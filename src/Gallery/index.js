@@ -3,16 +3,20 @@ import { Link } from 'react-router-dom';
 import Button from '../Button';
 import Header from '../Header';
 import MemesList from '../MemesList';
+// import FilterPerson from '../FilterPerson';
 import iconDog from '../img/dog-icon.svg';
 import './style.css';
 
 class Main extends Component {
   render() {
     return (
+      <>
       <div className="mainPage">
         <Header />
         <div className='mainContent'>
-          <div className='filterPeople'>тут будет фильтр</div>
+          <div className='filterPeople'>
+          {/* <FilterPerson /> */}
+          </div>
           <MemesList />
           <div className='buttonsBlock'>
             <Link to={'/main/create-meme'} className='link'><Button
@@ -23,6 +27,7 @@ class Main extends Component {
           </div>
         </div>
       </div>
+      </>
     );
   }
   
