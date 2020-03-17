@@ -1,0 +1,11 @@
+.triangleIcon {
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 34px;
+  width: 18px;
+  margin: 0 10px;;
+}
+
+.buttonsBlockCreateMeme {
+  display: flex;
+}

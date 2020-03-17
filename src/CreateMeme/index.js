@@ -1,16 +1,13 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
-import Button from '../Button';
 import Header from '../Header';
 import MemesList from '../MemesList';
 import FilterPerson from '../FilterPerson';
-import iconDog from '../img/dog-icon.svg';
+import ButtonsChainCreateMeme from '../ButtonsChainCreateMeme';
 import './style.css';
 
-class Main extends Component {
+class CreateMeme extends Component {
   render() {
     return (
-      <>
       <div className="mainPage">
         <Header />
         <div className='mainContent'>
@@ -18,19 +15,16 @@ class Main extends Component {
           <FilterPerson />
           </div>
           <MemesList />
-          <div className='buttonsBlock'>
-            <Link to={'/create-meme-page1'} className='link'><Button
-                textButton='Create new memas'
-                icon={iconDog}
-              />
-            </Link>
-          </div>
+          <ButtonsChainCreateMeme 
+            btnPage1={true}
+            btnPage2={false}
+            btnPage3={false}
+          />
         </div>
       </div>
-      </>
     );
   }
   
 }
 
-export default Main;
+export default CreateMeme;

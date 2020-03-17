@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import './style.css';
 
 const Button = ({ textButton, icon }) => {
-  console.log(icon);
   return (
     <div className='mainButton'>
       <div
@@ -18,6 +17,15 @@ const Button = ({ textButton, icon }) => {
 Button.propTypes = {
   textButton: PropTypes.string.isRequired,
   icon: PropTypes.string.isRequired,
+  btnPage1: PropTypes.bool,
+  btnPage2: PropTypes.bool,
+  btnPage3: PropTypes.bool,
+};
+
+Button.defaultProps = {
+  btnPage1: false,
+  btnPage2: false,
+  btnPage3: false,
 };
 
 export default Button;
