@@ -1,0 +1,38 @@
+.plus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 17.2vw;
+  height: 17.2vw;
+  border-radius: 10px;
+  margin: 2.4vw;
+  font-size: 20px;
+}
+
+.patternList {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  overflow-y: auto;
+  padding-bottom: 20px;
+}
+
+.plusWrapper {
+  width: 64px;
+  height: 64px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 50%;
+}
+
+.plusWrapper:hover {
+  cursor: pointer;
+  background-color: #6688cc;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.plusWrapper:active {
+  cursor: pointer;
+  background-color: #6688cc;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25), inset 0 4px 4px rgba(0, 0, 0, 0.25);
+}

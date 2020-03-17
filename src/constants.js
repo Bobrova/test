@@ -1,7 +1,7 @@
 const countMeme = 17;
-export const memesList = new Array(countMeme);
+export const memeList = new Array(countMeme);
 for ( let i = 0; i < countMeme; i++)
-memesList[i] = { id: i, person:'Дядя Степа' };
+memeList[i] = { id: i, person:'Дядя Степа' };
 
 export const tagOptions = [
   {

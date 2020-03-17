@@ -15,21 +15,21 @@ const ButtonsChainCreateMeme = ({ btnPage1, btnPage2, btnPage3 }) => {
         <Button
           textButton='Choose person'
           icon={iconSpy}
-          btn1={btnPage1}
+          btnPage={btnPage1}
       />
       </Link>
       <div className='triangleIcon' style={{ backgroundImage: `URL("${iconTriangle}")` }} />
       <Link to={'/main/create-meme-page2'} className='link'><Button
           textButton='Create memes'
           icon={iconDance}
-          btn2={btnPage2}
+          btnPage={btnPage2}
         />
       </Link>
       <div className='triangleIcon' style={{ backgroundImage: `URL("${iconTriangle}")` }} />
       <Link to={'/main/create-meme-page3'} className='link'><Button
           textButton='Share memes'
           icon={iconLol}
-          btn3={btnPage3}
+          btnPage={btnPage3}
         />
       </Link>
   </div>

@@ -9,7 +9,7 @@ import {
 import './index.css';
 import App from './App';
 import Gallery from './Gallery';
-import CreateMeme from './CreateMeme';
+import CreateMemePage1 from './CreateMemePage1';
 
 render(
   <HashRouter>
@@ -26,7 +26,7 @@ render(
       />
       <Route
         path="/create-meme-page1"
-        component={CreateMeme}
+        component={CreateMemePage1}
         exact
       />
     </Switch>

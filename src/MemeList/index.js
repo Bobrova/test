@@ -1,17 +1,17 @@
 import React, { Component } from 'react';
 import Meme from '../Meme';
-import { memesList } from '../constants';
+import { memeList } from '../constants';
 import './style.css';
 
-class MemesList extends Component {
+class MemeList extends Component {
   render() {
-    const list = memesList.map(item => (
+    const list = memeList.map(item => (
       <Meme 
         key={item.id}
       />
     ));
     return (
-      <div className="memesList">
+      <div className="memeList">
         {list}
       </div>
     );
@@ -19,4 +19,4 @@ class MemesList extends Component {
   
 }
 
-export default MemesList;
+export default MemeList;

@@ -1,10 +1,15 @@
 import React from 'react';
+import classNames from 'classnames';
 import PropTypes from 'prop-types';
 import './style.css';
 
-const Button = ({ textButton, icon }) => {
+const Button = ({ textButton, icon, btnPage }) => {
+  const btnClass = classNames(
+    'mainButton',
+    { 'stepTaken': btnPage }
+  )
   return (
-    <div className='mainButton'>
+    <div className={btnClass}>
       <div
         className='iconbt'
         style={{ backgroundImage: `URL("${icon}")` }}

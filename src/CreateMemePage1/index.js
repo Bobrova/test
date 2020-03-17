@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 import Header from '../Header';
-import MemesList from '../MemesList';
+// import MemeList from '../MemeList';
 import FilterPerson from '../FilterPerson';
 import ButtonsChainCreateMeme from '../ButtonsChainCreateMeme';
+import PatternList from '../PatternList';
 import './style.css';
 
-class CreateMeme extends Component {
+class CreateMemePage1 extends Component {
   render() {
     return (
       <div className="mainPage">
@@ -14,7 +15,7 @@ class CreateMeme extends Component {
           <div className='filterPeople'>
           <FilterPerson />
           </div>
-          <MemesList />
+          <PatternList />
           <ButtonsChainCreateMeme 
             btnPage1={true}
             btnPage2={false}
@@ -27,4 +28,4 @@ class CreateMeme extends Component {
   
 }
 
-export default CreateMeme;
+export default CreateMemePage1;
