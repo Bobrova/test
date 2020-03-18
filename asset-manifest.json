@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/test/static/css/main.8594c5b7.chunk.css",
-    "main.js": "/test/static/js/main.b94aea41.chunk.js",
-    "main.js.map": "/test/static/js/main.b94aea41.chunk.js.map",
+    "main.css": "/test/static/css/main.aa7cca0b.chunk.css",
+    "main.js": "/test/static/js/main.29fd02ac.chunk.js",
+    "main.js.map": "/test/static/js/main.29fd02ac.chunk.js.map",
     "runtime-main.js": "/test/static/js/runtime-main.5b4329d1.js",
     "runtime-main.js.map": "/test/static/js/runtime-main.5b4329d1.js.map",
     "static/css/2.e8cea057.chunk.css": "/test/static/css/2.e8cea057.chunk.css",
-    "static/js/2.c1753f15.chunk.js": "/test/static/js/2.c1753f15.chunk.js",
-    "static/js/2.c1753f15.chunk.js.map": "/test/static/js/2.c1753f15.chunk.js.map",
+    "static/js/2.c3cb2c2d.chunk.js": "/test/static/js/2.c3cb2c2d.chunk.js",
+    "static/js/2.c3cb2c2d.chunk.js.map": "/test/static/js/2.c3cb2c2d.chunk.js.map",
     "index.html": "/test/index.html",
-    "precache-manifest.b95a1d543f6accf64d4f68e7e496ae9b.js": "/test/precache-manifest.b95a1d543f6accf64d4f68e7e496ae9b.js",
+    "precache-manifest.6ed1c066c51003a6f86b0ce0c3132be6.js": "/test/precache-manifest.6ed1c066c51003a6f86b0ce0c3132be6.js",
     "service-worker.js": "/test/service-worker.js",
     "static/css/2.e8cea057.chunk.css.map": "/test/static/css/2.e8cea057.chunk.css.map",
-    "static/css/main.8594c5b7.chunk.css.map": "/test/static/css/main.8594c5b7.chunk.css.map",
-    "static/js/2.c1753f15.chunk.js.LICENSE.txt": "/test/static/js/2.c1753f15.chunk.js.LICENSE.txt",
+    "static/css/main.aa7cca0b.chunk.css.map": "/test/static/css/main.aa7cca0b.chunk.css.map",
+    "static/js/2.c3cb2c2d.chunk.js.LICENSE.txt": "/test/static/js/2.c3cb2c2d.chunk.js.LICENSE.txt",
     "static/media/add-button-icon.svg": "/test/static/media/add-button-icon.2a53d9fb.svg",
     "static/media/semantic.min.css": "/test/static/media/outline-icons.ef60a4f6.woff",
     "static/media/dance-icon.svg": "/test/static/media/dance-icon.c20dd3d0.svg",
@@ -22,6 +22,7 @@
     "static/media/lol-icon.svg": "/test/static/media/lol-icon.bc527eba.svg",
     "static/media/memes-logo.svg": "/test/static/media/memes-logo.b249e5df.svg",
     "static/media/pen.png": "/test/static/media/pen.b38f9c1f.png",
+    "static/media/save-icon.svg": "/test/static/media/save-icon.d85a4b48.svg",
     "static/media/share-icon.svg": "/test/static/media/share-icon.c6e2b355.svg",
     "static/media/slack-icon.svg": "/test/static/media/slack-icon.b01ad7c8.svg",
     "static/media/spy-icon.svg": "/test/static/media/spy-icon.f92ced78.svg",
@@ -30,8 +31,8 @@
   "entrypoints": [
     "static/js/runtime-main.5b4329d1.js",
     "static/css/2.e8cea057.chunk.css",
-    "static/js/2.c1753f15.chunk.js",
-    "static/css/main.8594c5b7.chunk.css",
-    "static/js/main.b94aea41.chunk.js"
+    "static/js/2.c3cb2c2d.chunk.js",
+    "static/css/main.aa7cca0b.chunk.css",
+    "static/js/main.29fd02ac.chunk.js"
   ]
 }
